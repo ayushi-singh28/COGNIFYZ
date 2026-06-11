@@ -1,0 +1,152 @@
+/* ── Base ── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f8;
+  color: #1a1a2e;
+}
+
+/* ── Navigation Menu ── */
+nav {
+  background: #1a1a2e;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  height: 56px;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+.nav-links a {
+  color: #cccccc;
+  text-decoration: none;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background: #5c6bc0;
+  color: #ffffff;
+}
+
+/* ── Webpage Card (Heading + Paragraph + Image) ── */
+.container {
+  max-width: 700px;
+  margin: 48px auto 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.container img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.content {
+  padding: 32px 36px;
+}
+
+.content h1 {
+  font-size: 1.9rem;
+  color: #5c6bc0;
+  margin-bottom: 14px;
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555555;
+}
+
+/* ── Form (Input + Submit Button) ── */
+.form-box {
+  max-width: 420px;
+  margin: 0 auto 60px;
+  background: #ffffff;
+  padding: 36px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.form-box h2 {
+  font-size: 1.4rem;
+  color: #5c6bc0;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #1a1a2e;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid #dddddd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="text"]:focus {
+  border-color: #5c6bc0;
+  box-shadow: 0 0 0 3px rgba(92, 107, 192, 0.15);
+}
+
+button[type="submit"] {
+  margin-top: 18px;
+  width: 100%;
+  padding: 12px;
+  background: #5c6bc0;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+button[type="submit"]:hover {
+  background: #3f51b5;
+}
+
+button[type="submit"]:active {
+  transform: scale(0.97);
+}
