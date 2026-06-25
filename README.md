@@ -1,4 +1,4 @@
-# 🌐 Cognifyz Technologies — Web Developer Internship
+# 🌐 Cognifyz Technologies — Web Development Internship
 
 ![Internship](https://img.shields.io/badge/Internship-Cognifyz%20Technologies-5c6bc0?style=for-the-badge)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
